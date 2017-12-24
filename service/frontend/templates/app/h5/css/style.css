@@ -1,0 +1,69 @@
+*{margin: 0;padding: 0;outline: none;}
+*:not(input, textarea){-webkit-touch-callout: inherit;-webkit-user-select: auto;}
+body{width: 100%;font-family: Microsoft Yahei;font-size: 14px;color: #333;-webkit-touch-callout: inherit;-webkit-user-select: auto;background-color: #fff;}
+a{color: #ff366d;text-decoration: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+a:hover{text-decoration: none;}
+button,input,select,textarea{font-size: 100%;margin: 0;padding: 0;outline: none;}
+dt,dd{display: inline-block;}
+textarea,input{resize: none;outline: none;}
+textarea{resize: none;-webkit-appearance: none;}
+ul,ol,li{list-style: none;}
+em{font-style: normal;}
+body{background: /*url(../images/cloud.png) bottom center repeat-x*/ #ea5252;background-size: 100% auto;}
+html, body{position: relative; height: 100%;}
+.fl{float: left;}
+.fr{float: right;}
+
+.main{
+	box-sizing: border-box;
+	height: 100%;
+	padding-top: 10%;
+}
+.main h1{
+	text-align: center;
+}
+.bg{text-align: center;width: 40%;margin: 5% auto 8%;}
+.bg img{width: 100%;}
+#downBtn{	
+	display: block;
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 1.066666rem;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+#wechat{display: none;}
+#wechat,#wechat img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
