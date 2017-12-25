@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9a5de1764cdb21a59ac623167d497486817ccae96d7f7fe7fae12619ec7ccd3a"
+            "sha256": "989fefd3a99d5e38c839b67acbdd0372b14823f85e538d3bb436227b1477d9ed"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -29,6 +29,26 @@
         ]
     },
     "default": {
+        "amqp": {
+            "hashes": [],
+            "version": "==1.4.9"
+        },
+        "anyjson": {
+            "hashes": [],
+            "version": "==0.3.3"
+        },
+        "arrow": {
+            "hashes": [],
+            "version": "==0.12.0"
+        },
+        "billiard": {
+            "hashes": [],
+            "version": "==3.3.0.23"
+        },
+        "celery": {
+            "hashes": [],
+            "version": "==3.1.25"
+        },
         "diff-match-patch": {
             "hashes": [],
             "version": "==20121119"
@@ -44,6 +64,10 @@
         "django-appconf": {
             "hashes": [],
             "version": "==1.0.2"
+        },
+        "django-celery": {
+            "hashes": [],
+            "version": "==3.2.2"
         },
         "django-docutils": {
             "hashes": [],
@@ -80,6 +104,10 @@
         "django-mptt": {
             "hashes": [],
             "version": "==0.9.0"
+        },
+        "django-redis": {
+            "hashes": [],
+            "version": "==4.8.0"
         },
         "django-reversion": {
             "hashes": [],
@@ -121,6 +149,10 @@
             "hashes": [],
             "version": "==1.3"
         },
+        "kombu": {
+            "hashes": [],
+            "version": "==3.0.37"
+        },
         "odfpy": {
             "hashes": [],
             "version": "==1.3.6"
@@ -137,6 +169,10 @@
             "hashes": [],
             "version": "==2.7.3.2"
         },
+        "python-dateutil": {
+            "hashes": [],
+            "version": "==2.6.1"
+        },
         "pytz": {
             "hashes": [],
             "version": "==2017.3"
@@ -148,6 +184,10 @@
         "qrcode": {
             "hashes": [],
             "version": "==5.3"
+        },
+        "redis": {
+            "hashes": [],
+            "version": "==2.10.6"
         },
         "six": {
             "hashes": [],
@@ -183,6 +223,10 @@
             "hashes": [],
             "version": "==17.3.0"
         },
+        "click": {
+            "hashes": [],
+            "version": "==6.7"
+        },
         "django": {
             "hashes": [],
             "version": "==2.0"
@@ -190,6 +234,10 @@
         "django-debug-toolbar": {
             "hashes": [],
             "version": "==1.9.1"
+        },
+        "plan": {
+            "hashes": [],
+            "version": "==0.5"
         },
         "pluggy": {
             "hashes": [],

@@ -17,14 +17,17 @@ django-imagekit = "*"
 django-docutils = "*"
 django-taggit = "*"
 django-mptt = "*"
-djangorestframework = "*"
-drf-extensions = "*"
 django-admin-rangefilter = "*"
 django-jet = "*"
+djangorestframework = "*"
+drf-extensions = "*"
 gunicorn = "*"
-psycopg2 = "*"
+"psycopg2" = "*"
 gevent = "*"
 qrcode = "*"
+arrow = "*"
+django-celery = "*"
+django-redis = "*"
 
 
 [dev-packages]
@@ -32,10 +35,11 @@ qrcode = "*"
 django-debug-toolbar = "*"
 whitenoise = "*"
 raven = "*"
-
+plan = "*"
 pytest-django = "*"
 pytest-sugar = "*"
 pytest = "*"
+
 
 [requires]
 
