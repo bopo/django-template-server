@@ -14,7 +14,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet
 
-from service.customer.models import Contact, Notice, Profile, Contains, Feedback
+from service.accounts.models import Contact, Notice, Profile, Contains, Feedback
 from service.resource.models import Favorite
 from .serializers import AddressSerializer, AvatarSerializer, \
     ContactDetailSerializer, ContactHideSerializer, ContactSerializer, ContainsSerializer, NoticeSerializer, \

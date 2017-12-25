@@ -21,7 +21,7 @@ router.register(r'comment', CommentViewSet, base_name='comment')
 
 urlpatterns = (
     url(r'^', include(router.urls, namespace='v1.0')),
-    url(r'^me/', include('service.customer.urls')),
+    url(r'^me/', include('service.accounts.urls')),
     url(r'^auth/', include('service.passport.urls')),
     url(r'^user/', include('rest_framework.urls', namespace='rest_framework')),
 )

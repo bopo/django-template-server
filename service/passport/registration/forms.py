@@ -10,7 +10,7 @@ from django.utils.encoding import force_text
 from django.utils.translation import ugettext_lazy as _
 from rest_framework.exceptions import ValidationError
 
-from service.customer.models import Profile
+from service.accounts.models import Profile
 # from service.resource.utils.sms import check_verify_code
 from .adapter import get_adapter
 from .utils import user_email, user_field, user_username

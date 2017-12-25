@@ -11,6 +11,18 @@ from model_utils import Choices
 from model_utils.models import TimeStampedModel, StatusModel
 from pilkit.processors import ResizeToFill
 
+class Favorite(TimeStampedModel):
+    owner = models.ForeignKey(settings.AUTH_USER_MODEL)
+
+    content_type = models.ForeignKey(ContentType, blank=True, null=True)
+    object_id = models.PositiveIntegerField(blank=True, null=True)
+    object = GenericForeignKey('content_type', 'object_id')
+
+    class Meta:
+        verbose_name = _(u'收藏夹')
+        verbose_name_plural = _(u'收藏夹')
+        unique_together = ('owner', 'object_id', 'content_type')
+
 class Profile(models.Model):
     '''
     该接口更新接受PUT方法
@@ -65,28 +77,6 @@ class Address(TimeStampedModel):
     class Meta:
         verbose_name = _(u'用户地址')
         verbose_name_plural = _(u'用户地址')
-
-
-class Contains(TimeStampedModel):
-    '''
-    用户手机通讯录
-    '''
-    mobile = models.CharField(_(u'手机号码'), max_length=100, default='')
-    alias = models.CharField(_(u'备注别名'), max_length=100, default='')
-
-    def save(self, *args, **kwargs):
-        self.mobile = self.mobile.replace('+86', '').replace('-', '').replace('.', '')
-        super(Contains).save(*args, **kwargs)
-
-    def __unicode__(self):
-        return self.mobile
-
-    def __str__(self):
-        return self.__unicode__()
-
-    class Meta:
-        verbose_name = _(u'手机通讯录')
-        verbose_name_plural = _(u'手机通讯录')
 
 
 class Contact(TimeStampedModel, StatusModel):

@@ -6,14 +6,7 @@ from django.contrib.auth.models import Group
 from django.contrib.contenttypes.models import ContentType
 from rest_framework import serializers
 
-from service.resource.models import Favorite
 from .models import *
-
-
-class GroupSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Group
-        fields = ('id', 'name')
 
 
 class ProfileSerializer(serializers.ModelSerializer):

@@ -13,7 +13,7 @@ from django.conf import settings
 from django.http import HttpResponse
 
 from django.shortcuts import render
-# from service.customer.models import Profile
+# from service.accounts.models import Profile
 # from .models import QRToken
 # from .utiils import logo_abb, merge_image
 
@@ -67,5 +67,5 @@ from django.shortcuts import render
 #     return render(request, 'video.html')
 
 
-def video_iframe(request):
-    return render(request, 'video_iframe.html', locals())
+# def video_iframe(request):
+#     return render(request, 'video_iframe.html', locals())

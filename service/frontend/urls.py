@@ -8,5 +8,5 @@ urlpatterns = [
     # url(r'^qs/(?P<key>.*)/$', qs, name='qs'),
     # url(r'^scan_login/', scan_login, name='scan_login'),
     # url(r'^video/', video, name='video'),
-    # url(r'^customer/', video_iframe, name='customer'),
+    # url(r'^accounts/', video_iframe, name='accounts'),
 ]
