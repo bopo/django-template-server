@@ -1,0 +1,239 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "9a5de1764cdb21a59ac623167d497486817ccae96d7f7fe7fae12619ec7ccd3a"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.6.4",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "17.3.0",
+            "platform_system": "Darwin",
+            "platform_version": "Darwin Kernel Version 17.3.0: Thu Nov  9 18:09:22 PST 2017; root:xnu-4570.31.3~1/RELEASE_X86_64",
+            "python_full_version": "3.6.4",
+            "python_version": "3.6",
+            "sys_platform": "darwin"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "http://mirrors.aliyun.com/pypi/simple/",
+                "verify_ssl": false
+            }
+        ]
+    },
+    "default": {
+        "diff-match-patch": {
+            "hashes": [],
+            "version": "==20121119"
+        },
+        "django": {
+            "hashes": [],
+            "version": "==2.0"
+        },
+        "django-admin-rangefilter": {
+            "hashes": [],
+            "version": "==0.3.0"
+        },
+        "django-appconf": {
+            "hashes": [],
+            "version": "==1.0.2"
+        },
+        "django-docutils": {
+            "hashes": [],
+            "version": "==0.4.0"
+        },
+        "django-environ": {
+            "hashes": [],
+            "version": "==0.4.4"
+        },
+        "django-extensions": {
+            "hashes": [],
+            "version": "==1.9.8"
+        },
+        "django-imagekit": {
+            "hashes": [],
+            "version": "==4.0.2"
+        },
+        "django-import-export": {
+            "hashes": [],
+            "version": "==0.6.1"
+        },
+        "django-jet": {
+            "hashes": [],
+            "version": "==1.0.6"
+        },
+        "django-js-asset": {
+            "hashes": [],
+            "version": "==0.1.1"
+        },
+        "django-model-utils": {
+            "hashes": [],
+            "version": "==3.0.0"
+        },
+        "django-mptt": {
+            "hashes": [],
+            "version": "==0.9.0"
+        },
+        "django-reversion": {
+            "hashes": [],
+            "version": "==2.0.12"
+        },
+        "django-taggit": {
+            "hashes": [],
+            "version": "==0.22.1"
+        },
+        "djangorestframework": {
+            "hashes": [],
+            "version": "==3.7.3"
+        },
+        "docutils": {
+            "hashes": [],
+            "version": "==0.14"
+        },
+        "drf-extensions": {
+            "hashes": [],
+            "version": "==0.3.1"
+        },
+        "et-xmlfile": {
+            "hashes": [],
+            "version": "==1.0.1"
+        },
+        "gevent": {
+            "hashes": [],
+            "version": "==1.2.2"
+        },
+        "greenlet": {
+            "hashes": [],
+            "version": "==0.4.12"
+        },
+        "gunicorn": {
+            "hashes": [],
+            "version": "==19.7.1"
+        },
+        "jdcal": {
+            "hashes": [],
+            "version": "==1.3"
+        },
+        "odfpy": {
+            "hashes": [],
+            "version": "==1.3.6"
+        },
+        "openpyxl": {
+            "hashes": [],
+            "version": "==2.5.0b1"
+        },
+        "pilkit": {
+            "hashes": [],
+            "version": "==2.0"
+        },
+        "psycopg2": {
+            "hashes": [],
+            "version": "==2.7.3.2"
+        },
+        "pytz": {
+            "hashes": [],
+            "version": "==2017.3"
+        },
+        "pyyaml": {
+            "hashes": [],
+            "version": "==3.12"
+        },
+        "qrcode": {
+            "hashes": [],
+            "version": "==5.3"
+        },
+        "six": {
+            "hashes": [],
+            "version": "==1.11.0"
+        },
+        "tablib": {
+            "hashes": [],
+            "version": "==0.12.1"
+        },
+        "typing": {
+            "hashes": [],
+            "version": "==3.6.2"
+        },
+        "unicodecsv": {
+            "hashes": [],
+            "version": "==0.14.1"
+        },
+        "wheel": {
+            "hashes": [],
+            "version": "==0.29.0"
+        },
+        "xlrd": {
+            "hashes": [],
+            "version": "==1.1.0"
+        },
+        "xlwt": {
+            "hashes": [],
+            "version": "==1.3.0"
+        }
+    },
+    "develop": {
+        "attrs": {
+            "hashes": [],
+            "version": "==17.3.0"
+        },
+        "django": {
+            "hashes": [],
+            "version": "==2.0"
+        },
+        "django-debug-toolbar": {
+            "hashes": [],
+            "version": "==1.9.1"
+        },
+        "pluggy": {
+            "hashes": [],
+            "version": "==0.6.0"
+        },
+        "py": {
+            "hashes": [],
+            "version": "==1.5.2"
+        },
+        "pytest": {
+            "hashes": [],
+            "version": "==3.3.1"
+        },
+        "pytest-django": {
+            "hashes": [],
+            "version": "==3.1.2"
+        },
+        "pytest-sugar": {
+            "hashes": [],
+            "version": "==0.9.0"
+        },
+        "pytz": {
+            "hashes": [],
+            "version": "==2017.3"
+        },
+        "raven": {
+            "hashes": [],
+            "version": "==6.4.0"
+        },
+        "six": {
+            "hashes": [],
+            "version": "==1.11.0"
+        },
+        "sqlparse": {
+            "hashes": [],
+            "version": "==0.2.4"
+        },
+        "termcolor": {
+            "hashes": [],
+            "version": "==1.1.0"
+        },
+        "whitenoise": {
+            "hashes": [],
+            "version": "==4.0b4"
+        }
+    }
+}
