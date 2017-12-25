@@ -17,18 +17,15 @@ django-imagekit = "*"
 django-docutils = "*"
 django-taggit = "*"
 django-mptt = "*"
-
 djangorestframework = "*"
 drf-extensions = "*"
-
 django-admin-rangefilter = "*"
 django-jet = "*"
-
 gunicorn = "*"
 psycopg2 = "*"
-
 gevent = "*"
 qrcode = "*"
+
 
 [dev-packages]
 
@@ -36,6 +33,15 @@ django-debug-toolbar = "*"
 whitenoise = "*"
 raven = "*"
 
+pytest-django = "*"
+pytest-sugar = "*"
+pytest = "*"
+
 [requires]
 
 python_version = "3.6"
+
+
+[pipenv]
+
+allow_prereleases = true

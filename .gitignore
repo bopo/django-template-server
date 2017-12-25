@@ -16,8 +16,8 @@ __pycache__
 /*.egg-info/
 MANIFEST
 /scripts/data/
-Pipfile.lock
+
 !.gitignore
 !.isort.cfg
 !.travis.yml
-!.gitlab-ci.ymlservice/sendpnm
+!.gitlab-ci.yml
